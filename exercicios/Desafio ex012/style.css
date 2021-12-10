@@ -52,6 +52,10 @@ section{
     padding-left: 30px;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .normal{
     background-color: #fff;
     color: black;
@@ -60,12 +64,27 @@ section{
 .imagem{
     background-color: rgb(66, 64, 64);
     color: #fff;
-
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .imagem > p{
-    background-color: rgb(95, 94, 94);
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(95, 94, 94, 0.63);
     width: 400px;
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+}
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
 }
 
 
